@@ -1,3 +1,5 @@
+// g++-15 -DLOCAL -std=c++11 -O2 -Wall main.cpp -o main && ./main
+
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -27,6 +29,7 @@ const ld EPS = 1e-9;
 
 void solve() {
     int n; cin>>n;
+    dbg(n);
     cout<<"solve "<< n <<endl;
 }
 
